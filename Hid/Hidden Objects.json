@@ -1,0 +1,28 @@
+{
+  "cross": {
+    "description": "Two thin but sturdy wires",
+    "examine": "It's two metal wires, maybe useful in the future",
+    "name": "wires",
+    "usePlaces": ["cell"],
+    "usedText": {
+      "cell": "You use the wires to pick the lock. Congrats! You're now free to go outside your cell. Take a look outside. "
+    },
+    "take": true
+  },
+  "soap": {
+    "description": "Bird-shaped ring",
+    "examine": "It's a bird-shaped ring, maybe valuable to the right person. ",
+    "name": "ring",
+    "take": true
+  },
+  "pen": {
+    "description": "A pen sit quietly on a table.",
+    "examine": "Seems like a regular pen, it is running out of ink",
+    "name": "pen",
+    "usePlaces": ["cell"],
+    "usedText": {
+      "cell": "You pull out your pen to write in your diary. "
+    },
+    "take": true
+  }
+}

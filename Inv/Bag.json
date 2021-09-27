@@ -1,0 +1,50 @@
+{
+    "apple": {
+        "description": "An apple that has a worm in it...eww",
+        "eat": "You take a bite of the apple, you feel the rotting pieces of fruit slide down your throat. You feel a bit sick. ",
+        "examine": "Upon closer examination, the apple is rotting. This is disgusting, I suggest you don't eat it.",
+        "name": "apple",
+        "take": true
+    },
+    "dagger": {
+        "description": "A small rusty dagger",
+        "eat": "Are you trying to die?",
+        "examine": "This dagger needs to be sharpened. ",
+        "name": "dagger",
+        "take": true
+    },
+    "pen": {
+        "description": "A pen sit quietly on a table.",
+        "examine": "Seems like a regular pen, it is running out of ink",
+        "name": "pen",
+        "take": true,
+        "usePlaces": [
+            "cell"
+        ],
+        "usedText": {
+            "cell": "You pull out your pen to write in your diary. "
+        }
+    },
+    "uniform": {
+        "description": "A spare uniform lies haphazardly on the ceramic floor.",
+        "examine": "Seems like the standard guard uniforms given out by the foundation. ",
+        "name": "uniform",
+        "take": true,
+        "wear": true,
+        "wearText": {
+            "office": "You put on the uniform. You look just like any other guard. "
+        }
+    },
+    "wires": {
+        "description": "Two thin but sturdy wires",
+        "examine": "It's two metal wires, maybe useful in the future",
+        "name": "wires",
+        "take": true,
+        "usePlaces": [
+            "cell"
+        ],
+        "usedText": {
+            "cell": "You use the wires to pick the lock. Congrats! You're now free to go outside your cell. Take a look outside. "
+        }
+    }
+}
